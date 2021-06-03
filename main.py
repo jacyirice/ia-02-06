@@ -6,7 +6,7 @@ objetivos = [0, 1, 0, 1]
 pesos = [0, 0, 0]
 
 for i in range(len(valores1)):
-    print(f'Iteração: {i}')
+    print(f'\nIteração: {i}')
 
     soma = somaponderada(valores1[i], valores2[i], pesos[0], pesos[1], pesos[2])
     print(f'Soma ponderada: {soma}')
